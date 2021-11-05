@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Library.ViewModels {
+namespace PierreTreats.ViewModels {
   public class RegisterViewModel {
     [Required]
     [EmailAddress]
