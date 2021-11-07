@@ -44,7 +44,8 @@ Welcome to Pierre's. Log in and enter treats with their respective flavors.
   }
 }`_
 6. Set your connection string to _`"Server=localhost;Port=3306;database=[YOUR-DATABASE-NAME];uid=[YOUR-USER-ID];pwd=[YOUR-PASSWORD];"`_
-7. From the project folder, Factory, run _`dotnet ef migrations add Initial`_ and then _`dotnet ef database update`_
+7. From the project folder, PierreTreats, run _`dotnet ef database update`_
+8. If you wish to update the models, run _`dotnet ef migrations add [Name_Here]`_ and then _`dotnet ef database update`_
 14. Run `dotnet run` and navigate to `localhost:5000` to see the database in action
 
 ## Known Bugs <a id="knownbugs"></a>
