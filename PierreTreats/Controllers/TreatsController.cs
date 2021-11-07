@@ -17,7 +17,7 @@ namespace PierreTreats.Controllers
     {
       _db = db;
     }
-    //[Authorize(Roles = "user")]
+    [Authorize(Roles = "Owner")]
     public ActionResult Index()
     {
       List<Treat> model = _db.Treats.ToList();
